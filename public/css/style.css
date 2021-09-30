@@ -9,6 +9,64 @@ html{
 }
 
 h1{
-    color: red;
-    background-color: royalblue;
+    font-size: 10rem;
+    font-weight: 900;
+    text-align: center;
+    background-image: url(/images/giphy3.gif);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 0.1rem black;
+    padding-top: 4rem;
+}
+
+.go{
+   background-color: orange;
+   vertical-align: middle;
+}
+
+input{
+    vertical-align: middle;
+    width: 50rem;
+}
+
+body{
+    height: 100vh;
+    background: #c3fae8;
+}
+
+form{
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;    
+}
+
+@media only screen and (max-width: 600px ) {
+    html{
+        font-size: 5px;
+    }
+
+    h1{
+        font-size: 8rem;
+        font-weight: 800;
+        padding-top: 20rem;
+    }
+
+    input{
+        width: 90%;
+        
+    }
+
+    .search{
+        width: 90vw;
+    }
+} 
+
+@media only screen and (max-width: 768px ){
+    h1{
+        font-size: 8rem;
+    }
 }
